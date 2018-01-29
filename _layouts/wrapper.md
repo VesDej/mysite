@@ -1,0 +1,10 @@
+﻿<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{{ site.title }}</title>
+</head>
+<body>
+  
+  {{ content }}
+  </body>
+</html>

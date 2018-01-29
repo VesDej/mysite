@@ -1,0 +1,8 @@
+﻿---
+layout: "wrapper"
+---
+
+
+{% for post in site.posts %}
+  <li><a style="{% if page.url == post.url %}color:red;{% endif %}" href="{{ post.url }}">{{ post.title }}</a></li>
+{% endfor %}
